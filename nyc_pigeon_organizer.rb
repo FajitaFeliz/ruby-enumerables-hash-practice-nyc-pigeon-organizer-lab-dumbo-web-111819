@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
   #   end
   #   i += 1
   # end
+  
   data.each do |top, middle|
     middle.each do |middle, bottom|
       bottom.each do |name|
